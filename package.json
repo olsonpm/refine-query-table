@@ -1,0 +1,19 @@
+{
+  "name": "refine-query-table",
+  "bin": {
+    "rqt": "./bin/rqt"
+  },
+  "version": "0.1.0",
+  "description": "Creates a styled html document from sqlite html query output",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "phil olson",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "js-beautify": "^1.6.2",
+    "lodash": "^4.12.0"
+  }
+}
